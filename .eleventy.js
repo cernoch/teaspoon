@@ -1,4 +1,4 @@
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img").default;
 const lightningcss = require("lightningcss");
 const { PurgeCSS } = require("purgecss");
 const { minify } = require("terser");
